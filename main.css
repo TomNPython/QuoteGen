@@ -1,0 +1,38 @@
+body {
+  font-family: serif;
+  background-image: linear-gradient(-90deg, #c79081, #dfa579);
+  color: #6d2c1a
+}
+
+.top {
+  margin: 10px
+}
+
+.subtitle {
+  font-size: 18px
+  
+}
+
+#quote-box {
+  margin: 10px;
+}
+
+#new-quote {
+  margin: 10px;
+}
+
+.quote-author {
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 5px;
+  max-width: 400px;
+  margin: auto;
+}
+
+#new-quote {
+  color: #6d2c1a
+}
+
+a {
+  margin: 10px;
+  background-color: white;}
