@@ -5,6 +5,7 @@ $(document).ready(function() {
   
   getQuote();
   
+  // function to generate a quote and author from two arrays, with a link to post to twitter
   function getQuote() {
     let quotes = ["To give real service, you must add something which cannot be bought or measured with money, and that is sincerity and integrity.", 
                   "Wisdom comes from experience. Experience is often a result of lack of wisdom.", 
@@ -25,6 +26,8 @@ $(document).ready(function() {
     getQuote()
   });
   
+  
+  // link to twitter
   $('#tweet-quote').on('click', function() {
 window.open('https://twitter.com/intent/tweet?text=' + quote + " " + author)})
 });
